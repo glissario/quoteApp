@@ -1,0 +1,28 @@
+/* general */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  background-color: white;
+}
+
+body {
+  /*border: 3px solid black;*/
+}
+
+h1 {
+  text-align: left;
+}
+
+/*specific*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(232, 239, 250);
+  padding: 5rem;
+}
